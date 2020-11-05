@@ -37,6 +37,8 @@
 		04A7297A2554A06600F44266 /* Day04VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A729792554A06600F44266 /* Day04VC.swift */; };
 		04A7297C2554A5D300F44266 /* Day04Input.txt in Resources */ = {isa = PBXBuildFile; fileRef = 04A7297B2554A5D200F44266 /* Day04Input.txt */; };
 		04A7297F2554AC5F00F44266 /* Day05VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7297E2554AC5F00F44266 /* Day05VC.swift */; };
+		04A729822554BC9500F44266 /* Day06VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A729812554BC9500F44266 /* Day06VC.swift */; };
+		04A729842554C3C800F44266 /* Day06Input.txt in Resources */ = {isa = PBXBuildFile; fileRef = 04A729832554C3C800F44266 /* Day06Input.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +74,8 @@
 		04A729792554A06600F44266 /* Day04VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day04VC.swift; sourceTree = "<group>"; };
 		04A7297B2554A5D200F44266 /* Day04Input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day04Input.txt; sourceTree = "<group>"; };
 		04A7297E2554AC5F00F44266 /* Day05VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day05VC.swift; sourceTree = "<group>"; };
+		04A729812554BC9500F44266 /* Day06VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day06VC.swift; sourceTree = "<group>"; };
+		04A729832554C3C800F44266 /* Day06Input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day06Input.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +151,7 @@
 				04A72973255216CE00F44266 /* Day03 */,
 				04A729782554A04F00F44266 /* Day04 */,
 				04A7297D2554AC4500F44266 /* Day05 */,
+				04A729802554BC7200F44266 /* Day06 */,
 			);
 			path = Days;
 			sourceTree = "<group>";
@@ -193,6 +198,15 @@
 				04A7297E2554AC5F00F44266 /* Day05VC.swift */,
 			);
 			path = Day05;
+			sourceTree = "<group>";
+		};
+		04A729802554BC7200F44266 /* Day06 */ = {
+			isa = PBXGroup;
+			children = (
+				04A729812554BC9500F44266 /* Day06VC.swift */,
+				04A729832554C3C800F44266 /* Day06Input.txt */,
+			);
+			path = Day06;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A729842554C3C800F44266 /* Day06Input.txt in Resources */,
 				04A7293D2551F8EC00F44266 /* LaunchScreen.storyboard in Resources */,
 				04A7297225520B2700F44266 /* Day02Input.txt in Resources */,
 				04A7293A2551F8EC00F44266 /* Assets.xcassets in Resources */,
@@ -283,6 +298,7 @@
 				04A729612551F90700F44266 /* DateHelper.swift in Sources */,
 				04A72975255216DF00F44266 /* Day03VC.swift in Sources */,
 				04A729622551F90700F44266 /* Node.swift in Sources */,
+				04A729822554BC9500F44266 /* Day06VC.swift in Sources */,
 				04A7295C2551F90700F44266 /* PermutationHelper.swift in Sources */,
 				04A7297A2554A06600F44266 /* Day04VC.swift in Sources */,
 				04A7295F2551F90700F44266 /* TravellingSalesmanHelper.swift in Sources */,
