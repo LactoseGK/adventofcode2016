@@ -36,6 +36,7 @@
 		04A72977255219B500F44266 /* Day03Input.txt in Resources */ = {isa = PBXBuildFile; fileRef = 04A72976255219B500F44266 /* Day03Input.txt */; };
 		04A7297A2554A06600F44266 /* Day04VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A729792554A06600F44266 /* Day04VC.swift */; };
 		04A7297C2554A5D300F44266 /* Day04Input.txt in Resources */ = {isa = PBXBuildFile; fileRef = 04A7297B2554A5D200F44266 /* Day04Input.txt */; };
+		04A7297F2554AC5F00F44266 /* Day05VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7297E2554AC5F00F44266 /* Day05VC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		04A72976255219B500F44266 /* Day03Input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day03Input.txt; sourceTree = "<group>"; };
 		04A729792554A06600F44266 /* Day04VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day04VC.swift; sourceTree = "<group>"; };
 		04A7297B2554A5D200F44266 /* Day04Input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day04Input.txt; sourceTree = "<group>"; };
+		04A7297E2554AC5F00F44266 /* Day05VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day05VC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				04A7296E255206F800F44266 /* Day02 */,
 				04A72973255216CE00F44266 /* Day03 */,
 				04A729782554A04F00F44266 /* Day04 */,
+				04A7297D2554AC4500F44266 /* Day05 */,
 			);
 			path = Days;
 			sourceTree = "<group>";
@@ -182,6 +185,14 @@
 				04A7297B2554A5D200F44266 /* Day04Input.txt */,
 			);
 			path = Day04;
+			sourceTree = "<group>";
+		};
+		04A7297D2554AC4500F44266 /* Day05 */ = {
+			isa = PBXGroup;
+			children = (
+				04A7297E2554AC5F00F44266 /* Day05VC.swift */,
+			);
+			path = Day05;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A7297F2554AC5F00F44266 /* Day05VC.swift in Sources */,
 				04A7295A2551F90700F44266 /* String+Ext.swift in Sources */,
 				04A729702552070700F44266 /* Day02VC.swift in Sources */,
 				04A729352551F8E900F44266 /* CalendarViewController.swift in Sources */,
