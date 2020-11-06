@@ -25,6 +25,11 @@ class Grid {
         self.size.gridPoints
     }()
     
+    convenience init(size: IntPoint, fillWith value: GridValue) {
+        let values: [GridValue] = Array(repeating: value, count: size.x * size.y)
+        self.init(size: size, values: values)
+    }
+    
     init(size: IntPoint, values: [GridValue]) {
         guard size.x > 0, size.y > 0 else { fatalError("Invalid grid, size must be non-negative in both axes.") }
         guard size.x * size.y == values.count else { fatalError("Invalid grid, values doesn't match size." ) }
