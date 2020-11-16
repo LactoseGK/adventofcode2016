@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04638362255708DC00CA2C11 /* Day10VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04638361255708DC00CA2C11 /* Day10VC.swift */; };
+		04638364255825AE00CA2C11 /* Day10Input.txt in Resources */ = {isa = PBXBuildFile; fileRef = 04638363255825AE00CA2C11 /* Day10Input.txt */; };
 		04A729312551F8E900F44266 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A729302551F8E900F44266 /* AppDelegate.swift */; };
 		04A729332551F8E900F44266 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A729322551F8E900F44266 /* SceneDelegate.swift */; };
 		04A729352551F8E900F44266 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A729342551F8E900F44266 /* CalendarViewController.swift */; };
@@ -48,6 +50,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04638361255708DC00CA2C11 /* Day10VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day10VC.swift; sourceTree = "<group>"; };
+		04638363255825AE00CA2C11 /* Day10Input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day10Input.txt; sourceTree = "<group>"; };
 		04A7292D2551F8E900F44266 /* AdventOfCode2016.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventOfCode2016.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A729302551F8E900F44266 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04A729322551F8E900F44266 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +105,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04638360255708CC00CA2C11 /* Day10 */ = {
+			isa = PBXGroup;
+			children = (
+				04638361255708DC00CA2C11 /* Day10VC.swift */,
+				04638363255825AE00CA2C11 /* Day10Input.txt */,
+			);
+			path = Day10;
+			sourceTree = "<group>";
+		};
 		04A729242551F8E900F44266 = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +180,7 @@
 				04A729852554C73500F44266 /* Day07 */,
 				04A7298F2555B86600F44266 /* Day08 */,
 				04A729942555C10F00F44266 /* Day09 */,
+				04638360255708CC00CA2C11 /* Day10 */,
 			);
 			path = Days;
 			sourceTree = "<group>";
@@ -312,6 +326,7 @@
 				04A729842554C3C800F44266 /* Day06Input.txt in Resources */,
 				04A7293D2551F8EC00F44266 /* LaunchScreen.storyboard in Resources */,
 				04A7297225520B2700F44266 /* Day02Input.txt in Resources */,
+				04638364255825AE00CA2C11 /* Day10Input.txt in Resources */,
 				04A7293A2551F8EC00F44266 /* Assets.xcassets in Resources */,
 				04A729932555BDC600F44266 /* Day08Input.txt in Resources */,
 				04A729892554CC4200F44266 /* Day07Input.txt in Resources */,
@@ -334,6 +349,7 @@
 				04A7295A2551F90700F44266 /* String+Ext.swift in Sources */,
 				04A729702552070700F44266 /* Day02VC.swift in Sources */,
 				04A729352551F8E900F44266 /* CalendarViewController.swift in Sources */,
+				04638362255708DC00CA2C11 /* Day10VC.swift in Sources */,
 				04A7295B2551F90700F44266 /* AoCVC.swift in Sources */,
 				04A729572551F90700F44266 /* Image.swift in Sources */,
 				04A729592551F90700F44266 /* FileLoader.swift in Sources */,
